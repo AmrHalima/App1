@@ -1,0 +1,42 @@
+:root{
+  --bg-primary:#2C3E50;
+  --bg-secondary:#1ABC9C;
+  --bg-footer:#1A252F;
+}
+h1,h2,h3,h4,h5,h6,p,nav,.navbar-brand,.nav-link{
+  color: #fff !important;
+}
+.bgc-primary{
+  background-color: var(--bg-primary);
+}
+.bgc-secondary{
+  background-color: var(--bg-secondary);
+}
+.bgc-footer{
+    background-color: var(--bg-footer);
+
+}
+.textc-primary{
+  color: var(--bg-primary) !important;
+}
+.avatar{
+  width: 80%;
+}
+.icon{
+  border: #fff 1px solid;
+  padding: .6rem;
+  border-radius: 50%;
+  margin-inline: .2rem;
+}
+li .active span{
+  background-color: var(--bg-secondary);
+}
+li span {
+  transition: background-color .25s ease-in  ;
+}
+.top-24px {
+  transform:translateY(-24px);
+}
+label{
+  transition: all .25s ease-out;
+}
